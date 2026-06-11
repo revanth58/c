@@ -4,6 +4,7 @@ int main(){
 	int x;
 	printf("enter x : ");scanf("%d",&x);
 
+	// ld is last digit, l2d is last 2nd digit
 	int ld = x%10;
 	int l2d = (x/10)%10;
 	printf("%d %d\n",l2d,ld);
